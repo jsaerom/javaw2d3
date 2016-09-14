@@ -1,0 +1,17 @@
+
+#if ($artists.isEmpty())
+  <h3>Collection is Empty</h3>
+#else
+  <h3>All Artists</h3>
+  <ul>
+    #foreach ($artist in $artists)
+    <li><a href="/artists/$artist.getID()">$artist.getName()</a></li>
+    #end
+  </ul>
+#end
+
+<form action="/" method="post">
+  <label for="artistName">Add New Artist: </label>
+  <input type="text" id="artistName" name="artistName">
+  <button type="submit" class="btn">Submit Artist</button>
+</button>

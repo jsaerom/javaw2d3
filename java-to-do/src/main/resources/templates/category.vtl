@@ -1,14 +1,14 @@
 <h1>$category.getName() tasks:</h1>
 
 
-#if ($category.getTasks())
-  <ul>
-    #foreach ($task in $category.getTasks())
-      <li><a href="/tasks/$task.getId()">$task.getDescription()</a></li>
-    #end
-  </ul>
-#else
+#if ($category.getTasks().isEmpty())
   <p>No tasks!</p>
+#else
+<ul>
+  #foreach ($task in $category.getTasks())
+    <li><a href="/tasks/$task.getId()">$task.getDescription()</a></li>
+  #end
+</ul>
 #end
 
 
