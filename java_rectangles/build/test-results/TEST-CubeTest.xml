@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CubeTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-09-14T16:04:49" hostname="epicodus-21.local" time="0.002">
+  <properties/>
+  <testcase name="volume_determinesTheVolumeOfTheCube_27000" classname="CubeTest" time="0.001"/>
+  <testcase name="surfaceArea_determinesTheSurfaceAreaOfACube_5400" classname="CubeTest" time="0.0"/>
+  <testcase name="newCube_savesRectangleInformation_Rectangle" classname="CubeTest" time="0.0"/>
+  <testcase name="newCube_instantiatesCorrectly" classname="CubeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
